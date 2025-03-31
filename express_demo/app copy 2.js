@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const port = 3000; // 默认3000
 const myLogger = (req) => {};
-
+console.log("The add some things ")
 app.get(
   "/user/:id",
   (req, res, next) => {
